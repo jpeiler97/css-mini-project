@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	margin: 0;
+	background-color: var(--dark);
+	font-size: 75%;
+}
+
+header {
+	text-align: center;
+	line-height: 1.5;
+	margin: 0 20% 0 20%;
+	padding: 3rem;
+	align-content: center;
+}
+
+h1 {
+	width: 100%;
+	color: var(--pink);
+	font-size: 3rem;
+	margin-bottom: 2%;
+}
+
+header p {
+	color: var(--white);
+	font-size: 12px;
+}
+
+main {
+	margin-top: 2%;
+	width: 96%;
+}
+
+main p {
+	color: var(--pink);
+	font-size: 14px;
+	margin: 15px;
+}
+
+.flex-row {
+	margin: 0 10% 2% 10%;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.code-box {
+	display: flex;
+	flex-direction: column;
+	border-style: dashed;
+	border-width: 2px;
+	border-color: white;
+	width: 33.33%;
+	margin: 15px;
+	flex: 1 0 30%;
+}
+
+.box-title {
+	position: relative;
+	color: var(--pink);
+	margin-top: -20px;
+	border: var(--white);
+	border-style: solid;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: left;
+	background: var(--dark);
+}
+
+div h2 {
+	margin: 5px;
+	font-size: 20px;
+}
+
+pre {
+	margin: 15px;
+	display: flex;
+	align-items: center;
+	align-content: flex-start;
+}
+
+.linear-gradient-background {
+	background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
+	border-radius: 10px;
+	display: flex;
+	flex: 1;
+}
+
+code {
+	color: var(--white);
+	font-family: monospace;
+	line-height: 1.5;
+	font-size: 13px;
+	white-space: pre-wrap;
+	text-indent: 0;
+	margin-left: 10%;
+}
+
+h3 {
+	color: var(--pink);
+}
+
+.heart {
+	color: none;
+}
+
+footer {
+	text-align: center;
+	font-size: 25px;
+	padding: 0 20px 20px 20px;
+	align-content: center;
+}
+
+@media screen and (max-width: 992px) {
+	.code-box {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.code-box {
+		width: 100%;
+	}
+}
